@@ -1,0 +1,38 @@
+.header {
+    margin-top: 60px;
+}
+
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+}
+
+.headerTitleSm {
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+}
+
+.headerTitleLg {
+    position: absolute;
+    font-size: 100px;
+    font-weight: 500;
+    top: 130px;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 2;
+}
+
+.headerImg {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 80px;
+    filter:brightness(80%);
+}
